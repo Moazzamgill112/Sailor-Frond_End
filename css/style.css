@@ -1,0 +1,565 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Mobile Screen Starts */
+.parent-navbar{
+    margin-top: 8px 0px; 
+    background-color: white;
+}
+.site_name{
+    font-size: 28px;
+    font-weight: 700;
+    color: #556270;
+}
+.get-started-btn{
+    background-color: #d9232d;
+    color: white;
+    width: 100%;
+    /* margin-left: 20px; */
+}
+.get-started-btn:hover{
+    color: white;
+    background-color: #df2d36;
+    border: 1px solid #df2d36;
+}
+.nav-item{
+    padding: 0px 7px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+ .slider-img{
+    height: 630px;
+ }
+ .slider-btn{
+    margin-bottom: 100px;
+ }
+ .slider-h1{
+    padding-bottom: 20px;
+ }
+
+
+
+
+ .below-slider{
+    margin-top: 60px;
+}
+.EUM-IPSAM{
+    line-height: 55px;
+    font-size: 45px;
+    font-weight: 700;
+    color: #444444;
+    padding-bottom: 10px;
+}
+.Voluptatem{
+    margin-top: 10px;
+    font-size: 27px;
+    color: #444444;
+    padding-bottom: 20px;
+}
+.Ullamco{
+    margin-top: 5px;
+    color: 444444;
+    padding-bottom: 10px;
+}
+.Ullamco2{
+    margin-top: 25px;
+    color: 444444;
+    padding-bottom: 10px;
+}
+.double-tick{
+    color: #d9232d;
+    font-size: 19px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.brand_img{
+    filter: grayscale(1.0);
+    width: 60px;
+    height: 25px;
+    margin-bottom: 30px;
+}
+.brands{
+    margin-top: 30px;
+    background-color: #f8f9fa;
+    padding: 30px;
+}
+.brand_img:hover{
+    filter: none;
+    -webkit-transform: scale(1.1);
+    transition: all 0.8s;
+}
+.cards-para{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.cards-heading{
+    color: #444444;
+}
+.cards-heading:hover{
+    color: #d9232d;
+    cursor: pointer;
+}
+.cards-icon{
+    font-size: 40px;
+    margin-top: 5px;
+    margin-right: 30px;
+    color: #d9232d;
+}
+.cards{
+    background-color: #f8f9fa;
+    padding: 40px 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+} 
+.cards-section{
+    margin-top: 50px;
+}
+.two-cards{
+    margin: 0px 2px;
+}
+
+
+.n-and-t{
+    margin-top: 120px;
+}
+.n-and-t .n-and-t-ul .n-and-t-li{
+    padding: 0px 4px;
+}
+.n-and-t .n-and-t-ul .n-and-t-li a{
+    color: #444444;
+}
+.n-and-t .n-and-t-ul .active{
+    color: white !important;
+    background-color: #d9232d !important;
+}
+.n-and-t .n-and-t-ul .n-and-t-li :hover{
+    color: white !important;
+    background-color: #d9232d;
+}
+.n-and-t button{
+    color: #444444;
+    padding: 4px 9px;
+}
+.about-home{
+    text-decoration: none;
+    color: #df2d36;
+}
+.about-home:hover{
+    color: #d9232d;
+}
+
+.about-head{
+    color: #444444;
+    background-color: #f8f9fa;
+    padding: 15px 0px;
+}
+
+.about-home{
+    text-decoration: none;
+    color: #df2d36;
+}
+.about-home:hover{
+    color: #d9232d;
+}
+
+.about-home-p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.team-main{
+    background-color: #f8f9fa;
+    padding: 60px 0px;
+}
+.team-line{
+    position: relative;
+    top: -7px;
+    color: #d9232d;
+}
+.para-team{
+    color: rgb(151, 142, 142);
+    font-size: 15px;
+}
+.teamh2{
+    font-weight: 800;
+    color: #556270;
+}
+.team-cards{
+    margin-top: 80px;
+}
+
+
+/* skills */
+.skills-main{
+    margin-top: 50px;
+}
+
+.progress-bar{
+    background-color: #556270;
+}
+.progress-1st{
+    margin-top: 50px;
+}
+.one-bar{
+    margin-bottom: 20px;
+}
+
+/* Mobile Screen Ends */
+
+
+
+
+
+/* Tablet Screen Starts*/
+@media only screen and (min-width: 768px){
+    .slider-img{
+        height: 1000px;
+     }
+     .slider-h1{
+        font-size: 30px;
+     }
+     .slider-btn{
+        margin-bottom: 380px;
+     }
+     .brands{
+        margin-top: 30px;
+        background-color: #f8f9fa;
+    }
+    .brand_img{
+        margin-top: 10px;
+        filter: grayscale(1.0);
+        width: 90px;
+        height: 40px;
+        margin-bottom: 15px;
+    }
+    .brand_img:hover{
+        filter: none;
+        -webkit-transform: scale(1.1);
+        transition: all 0.8s;
+    }
+    .cards-para{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .cards-heading{
+        color: #444444;
+    }
+    .cards-heading:hover{
+        color: #d9232d;
+        cursor: pointer;
+    }
+    .cards-icon{
+        font-size: 40px;
+        margin-top: 5px;
+        margin-right: 30px;
+        color: #d9232d;
+    }
+    .cards{
+        background-color: #f8f9fa;
+        padding: 40px 30px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    } 
+    .cards-section{
+        margin-top: 70px;
+        padding: 0px 0px;
+    }
+    .two-cards{
+        margin: 0px 0px;
+    }
+
+
+    .n-and-t{
+        margin-top: 120px;
+    }
+    .n-and-t .n-and-t-ul .n-and-t-li a{
+        color: #444444;
+    }
+    .n-and-t .n-and-t-ul .active{
+        color: white !important;
+        background-color: #d9232d !important;
+    }
+    .n-and-t .n-and-t-ul .n-and-t-li :hover{
+        color: white !important;
+        background-color: #d9232d;
+    }
+    .n-and-t button{
+        color: #444444;
+    }
+    .n-and-t-container{
+        margin-top: 40px;
+    }
+
+
+
+
+/* About Page Starts */
+
+   .about-head{
+        color: #444444;
+        background-color: #f8f9fa;
+        padding: 15px 0px;
+    }
+
+    .about-home{
+        text-decoration: none;
+        color: #df2d36;
+    }
+    .about-home:hover{
+        color: #d9232d;
+    }
+
+    .about-home-p{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+
+
+    /* team */
+    .team-main{
+        background-color: #f8f9fa;
+        padding: 60px 0px;
+    }
+    .team-line{
+        position: relative;
+        top: -7px;
+        color: #d9232d;
+    }
+    .para-team{
+        color: rgb(151, 142, 142);
+        font-size: 15px;
+    }
+    .teamh2{
+        font-weight: 800;
+        color: #556270;
+    }
+    .team-cards{
+        margin-top: 80px;
+    }
+
+    /* skills */
+.skills-main{
+    margin-top: 50px;
+}
+
+.progress-bar{
+    background-color: #556270;
+}
+.progress-1st{
+    margin-top: 50px;
+}
+.one-bar{
+    margin-bottom: 20px;
+}
+}
+/* Tablet Screen Ends*/
+
+
+/* Desktop Screen Starts*/
+@media only screen and (min-width: 1000px){
+    .slider-img{
+        height: 560px;
+     }
+     .slider-btn{
+        margin-bottom: 150px;
+     }
+     .get-started-btn{
+        background-color: #d9232d;
+        color: white;
+        width: 140px;
+        margin-left: 20px;
+    }
+    .below-slider{
+        margin-top: 60px;
+    }
+    .EUM-IPSAM{
+        font-size: 45px;
+        font-weight: 700;
+        color: #444444;
+    }
+    .Voluptatem{
+        margin-top: 10px;
+        font-size: 27px;
+        color: #444444;
+    }
+    .Ullamco{
+        margin-top: 5px;
+        color: 444444;
+        padding-bottom: 10px;
+    }
+    .Ullamco2{
+        margin-top: 25px;
+        color: 444444;
+        padding-bottom: 10px;
+    }
+    .double-tick{
+        color: #d9232d;
+        font-size: 19px;
+        padding-right: 10px;
+        padding-top: 5px;
+    }
+    .dolor{
+        padding-left: 30px;
+    }
+    .nav-ul .nav-li .nav-link:hover{
+        color: #d9232d;
+    }
+    .dropdown-item:hover{
+        color: #d9232d;
+        background-color: white;
+    }
+    .nav-ul .nav-li .active{
+        color: #d9232d !important;
+    }
+    .dropdown-item.active, .dropdown-item:active {
+        color: #d9232d;
+        text-decoration: none;
+        background-color: white;
+    }
+
+    .brands{
+        margin-top: 30px;
+        background-color: #f8f9fa;
+        padding: 38px 135px;
+    }
+    .brand_img{
+        filter: grayscale(1.0);
+        width: 90px;
+        height: 30px;
+        margin-bottom: 0px;
+    }
+    .brand_img:hover{
+        filter: none;
+        -webkit-transform: scale(1.1);
+        transition: all 0.8s;
+    }
+    .cards-para{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .cards-heading{
+        color: #444444;
+    }
+    .cards-heading:hover{
+        color: #d9232d;
+        cursor: pointer;
+    }
+    .cards-icon{
+        font-size: 40px;
+        margin-top: 5px;
+        margin-right: 30px;
+        color: #d9232d;
+    }
+    .cards{
+        background-color: #f8f9fa;
+        padding: 40px 30px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    } 
+    .cards-section{
+        margin-top: 50px;
+    }
+    .n-and-t{
+        margin-top: 120px;
+    }
+    .n-and-t .n-and-t-ul .n-and-t-li a{
+        color: #444444;
+    }
+    .n-and-t .n-and-t-ul .active{
+        color: white !important;
+        background-color: #d9232d !important;
+    }
+    .n-and-t .n-and-t-ul .n-and-t-li :hover{
+        color: white !important;
+        background-color: #d9232d;
+    }
+    .n-and-t button{
+        color: #444444;
+    }
+    .n-and-t-container{
+        margin-top: 40px;
+    }
+
+
+
+    /* About Page Starts */
+    .about-head{
+        color: #444444;
+        background-color: #f8f9fa;
+        padding: 15px 0px;
+    }
+
+    .about-home{
+        text-decoration: none;
+        color: #df2d36;
+    }
+    .about-home:hover{
+        color: #d9232d;
+    }
+
+    .about-home-p{
+        font-size: 14px;
+        margin-top: 10px;
+        text-align: end;
+    }
+
+
+    /* team */
+    .team-main{
+        background-color: #f8f9fa;
+        padding: 60px 0px;
+    }
+    .team-line{
+        position: relative;
+        top: -7px;
+        color: #d9232d;
+    }
+    .para-team{
+        color: rgb(151, 142, 142);
+        font-size: 15px;
+    }
+    .teamh2{
+        font-weight: 800;
+        color: #556270;
+    }
+    .team-cards{
+        margin-top: 80px;
+    }
+
+
+
+    /* skills */
+    .skills-main{
+        margin-top: 50px;
+    }
+
+    .progress-bar{
+        background-color: #556270;
+    }
+    .progress-1st{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .progress-remained{
+        margin-bottom: 20px;
+    }
+
+    
+
+
+
+
+    
+    
+    
+
+}
+/* Desktop Screen Ends*/

@@ -1,0 +1,241 @@
+
+/* Mobile */
+.footer-main{
+    margin-top: 70px;
+    background-color: #515d6a;
+    color: white;
+}
+.footer-row{
+    padding-top: 50px;
+}
+.street{
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.number{
+    font-size: 14px;
+}
+.social{
+    padding: 10px;
+    font-size: 15px;
+    background-color: #627080;
+    border-radius: 5px;
+}
+.social:hover{
+    background-color: #d9232d;
+    cursor: pointer;
+}
+.social-container{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.useful-h6{
+    padding-bottom: 10px;
+
+}
+.useful{
+    font-size: 14px;
+}
+.useful-bottom{
+    color: #b9bec3;
+}
+.useful-bottom p:hover{
+    cursor: pointer;
+}
+.footer-btn{
+    padding: 0px 15px;
+    background-color: #d9232d;
+    color: white;
+}
+.footer-btn:hover{
+    background-color: #d33b43;
+    border: 1px solid #d9232d;
+}
+
+.mini-footer{
+    background-color: #4a5562;
+    text-align: center;
+    padding: 20px;
+}
+.copyright{
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.designedby{
+    font-size: 13px;
+    color: #b9bec3;
+}
+.designedby a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 768px){
+    .footer-main{
+        margin-top: 70px;
+        background-color: #515d6a;
+        color: white;
+    }
+    .footer-row{
+        padding-top: 50px;
+    }
+    .street{
+        margin-top: 20px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .number{
+        font-size: 14px;
+    }
+    .social{
+        padding: 10px;
+        font-size: 15px;
+        background-color: #627080;
+        border-radius: 5px;
+    }
+    .social:hover{
+        background-color: #d9232d;
+        cursor: pointer;
+    }
+    .social-container{
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .useful-h6{
+        padding-bottom: 10px;
+    
+    }
+    .useful{
+        font-size: 14px;
+    }
+    .useful-bottom{
+        color: #b9bec3;
+    }
+    .useful-bottom p:hover{
+        cursor: pointer;
+    }
+    .footer-btn{
+        padding: 0px 15px;
+        background-color: #d9232d;
+        color: white;
+    }
+    .footer-btn:hover{
+        background-color: #d33b43;
+        border: 1px solid #d9232d;
+    }
+
+    .mini-footer{
+        background-color: #4a5562;
+        text-align: center;
+        padding: 20px;
+    }
+    .copyright{
+        color: white;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .designedby{
+        font-size: 13px;
+        color: #b9bec3;
+    }
+    .designedby a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 1000px){
+.footer-main{
+    margin-top: 70px;
+    background-color: #515d6a;
+    color: white;
+}
+.footer-row{
+    padding-top: 50px;
+}
+.street{
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.number{
+    font-size: 14px;
+}
+.social{
+    padding: 10px;
+    font-size: 15px;
+    background-color: #627080;
+    border-radius: 5px;
+}
+.social:hover{
+    background-color: #d9232d;
+    cursor: pointer;
+}
+.social-container{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.useful-h6{
+    padding-bottom: 10px;
+
+}
+.useful{
+    font-size: 14px;
+}
+.useful-bottom{
+    color: #b9bec3;
+}
+.useful-bottom p:hover{
+    cursor: pointer;
+}
+.footer-btn{
+    padding: 0px 15px;
+    background-color: #d9232d;
+    color: white;
+}
+.footer-btn:hover{
+    background-color: #d33b43;
+    border: 1px solid #d9232d;
+}
+
+
+.mini-footer{
+    background-color: #4a5562;
+    text-align: center;
+    padding: 20px;
+}
+.copyright{
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.designedby{
+    font-size: 13px;
+    color: #b9bec3;
+}
+.designedby a{
+    text-decoration: none;
+    color: inherit;
+}
+.btt_anchor{
+    text-decoration: none;
+    color: white;
+    background-color: #d9232d;
+    position: fixed;
+    bottom: 30px;
+    right: 18px;
+    border-radius: 5px;
+    height: 45px;
+    width: 40px;
+}
+.btt_anchor:hover{
+    color: white;
+    background-color: #d33b43;
+}
+}
